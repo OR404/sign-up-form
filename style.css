@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    
+}
+
+.background-left {
+    width: 40vw;
+    height: 100vh;
+    background: url(/images/background-image.jpg);
+    background-size: cover;
+    
+}
+
+.form-right {
+    width:  60vw;
+    height: 100vh;
+    background-color: rgb(105, 185, 185);
+}
+
