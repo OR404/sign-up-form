@@ -7,14 +7,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 35vw;
+    width: 33.3vw;
     height: 100vh;
     background: url(/images/background-image.jpg);
     background-size: cover;
     
 }
 
-.brand-and-logo {
+.brand-and-logo  {
     display: flex;
     justify-content: center;
     background-color: rgba(50,51,50,0.5);
@@ -28,14 +28,14 @@ body {
 }
 
 .logo {
-    /*need to fix*/
-    
+    width: 32px;
+    font-weight: bold;
 }
 
 .form-right {
     width:  60vw;
     height: 100vh;
-    background-color: #daedf8
+
 }
 
 
