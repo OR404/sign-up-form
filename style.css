@@ -1,6 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
-    
+    background: linear-gradient(to top, #d3dfeb 5%, #58819d 110%);
 }
 
 .background-left {
