@@ -17,18 +17,18 @@ body {
 .brand-and-logo  {
     display: flex;
     justify-content: center;
-    background-color: rgba(50,51,50,0.5);
+    background-color: rgba(50,51,50,0.3);
 
 }
 
 .brand {
-    font-size: 32px;
+    font-size: 35px;
     font-weight: bold;
     color: #daedf8;
 }
 
 .logo {
-    width: 32px;
+    width: 35px;
     font-weight: bold;
 }
 
