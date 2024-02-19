@@ -7,7 +7,7 @@ body {
     background: linear-gradient(to top, #d3dfeb 5%, #58819d 110%);
 }
 
-.background-left {
+.left-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,10 +36,19 @@ body {
     font-weight: bold;
 }
 
-.form-right {
-    width:  60vw;
+.right-section {
+    display: flex;
+    justify-content: center;
+    width:  66.7vw;
     height: 100vh;
 
+}
+
+.description {
+    width: 39vw;
+    margin-top: 25vh;
+    font-size: 35px;
+    text-align: center;
 }
 
 
