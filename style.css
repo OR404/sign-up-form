@@ -38,7 +38,8 @@ body {
 
 .right-section {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width:  66.7vw;
     height: 100vh;
 
@@ -47,9 +48,23 @@ body {
 .description {
     width: 39vw;
     margin-top: 25vh;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/*.label-and-field {
+    display: flex;
+    flex-direction: column;
+}*/
+
+
 
 
 
