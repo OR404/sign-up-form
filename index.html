@@ -21,33 +21,46 @@
     <form action="example.com/path" method="post" >
         <div class="name-and-lastname">
 
+            <div class="label-and-input">
             <label for="user_name">FIRST NAME</label>
             <input type="text" id="user_name" name="name">
-            
-            <label for="user_lastname">LAST NAME</label>
-            <input type="text" id="user_lastname" name="lastname">
+            </div>
+
+            <div class="label-and-input">
+                <label for="user_lastname">LAST NAME</label>
+                <input type="text" id="user_lastname" name="lastname">
+            </div>
+
         </div>
 
         <div class="email-and-phone">
+
+            <div class="label-and-input">
             <label for="user_email">EMAIL</label>
             <input type="email" id="user_email" name="email">
-            
+            </div>
+
+            <div class="label-and-input">
             <label for="user_phone">PHONE NUMBER</label>
             <input type="tel" id="user_phone" name="phone_number">
+            </div>
+        
         </div>
 
         <div class="pass-and-validatepass">
+
+            <div class="label-and-input">
             <label for="user_password">PASSWORD</label>
             <input type="password" id="user_password" name="password">
+            </div>
 
+            <div class="label-and-input">
             <label for="user_validate_password">CONFIRM PASSWORD</label>
             <input type="password" id="user_validate_password" name="password_validation">
+            </div>
 
         </div>
-
-
-
-
+        <input type="submit" value="Submit" class="submit-button">
     </form>
 </div>
 

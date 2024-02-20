@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body {
     display: flex;
     background: linear-gradient(to top, #d3dfeb 5%, #58819d 110%);
+    margin: 0;
 }
 
 .left-section {
@@ -21,7 +23,7 @@ body {
 .brand-and-logo  {
     display: flex;
     justify-content: center;
-    background-color: rgba(50,51,50,0.3);
+    background-color: rgba(50,51,50,0.2);
 
 }
 
@@ -53,16 +55,49 @@ body {
 }
 
 form {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 3px solid rgb(134, 132, 132,0.3)
+}
+
+label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input {
+    background-color: transparent;
+    width: 225px;
+    border: 2px solid rgb(134, 132, 132,0.2);
+    border-radius: 5px;
+    
+}
+
+.name-and-lastname , .email-and-phone , .pass-and-validatepass {
+    display: flex;
     gap: 15px;
 }
 
-/*.label-and-field {
+.label-and-input {
     display: flex;
     flex-direction: column;
-}*/
+    align-items: center;
+    
+}
+
+.submit-button {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #7c9db4;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 9px;
+}
 
 
 
