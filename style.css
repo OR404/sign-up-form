@@ -102,18 +102,6 @@ input {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .submit-button:hover {
     cursor: grab;
 }
@@ -124,9 +112,15 @@ input:hover {
 }
 
 input:focus {
-    border: 2px solid #7c9db4;
+    border: 1px solid #7c9db4;
     outline: none;
 }
+
+
+.unmatched , .unmatched:focus , .unmatched:hover {
+    border: 1px solid red ;
+}
+
 
 
 
